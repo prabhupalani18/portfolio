@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+header ul li {
+  @apply px-5;
+}
+
+.bgprimary {
+  background: rgb(150, 155, 555);
+}
+
+.mobile-nav {
+  @apply fixed top-10 left-0 bg-gray-700 w-full h-1/5;
+}
+
+.mobile-nav li {
+  @apply w-full h-full text-center border-b-2;
+}
