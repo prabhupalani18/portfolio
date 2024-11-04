@@ -21,6 +21,9 @@ export default function Header() {
                         <a href="#">Projects</a>
                     </li>
                     <li>
+                        <a href="#">Resume</a>
+                    </li>
+                    <li>
                         <a href="#">Contact</a>
                     </li>
                 </ul>
