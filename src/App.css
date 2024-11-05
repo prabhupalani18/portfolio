@@ -7,7 +7,11 @@ header ul li {
 }
 
 .bgprimary {
-  background: rgb(150, 155, 555);
+  background: #e46d5d;
+}
+
+.bgsecondary {
+  background: #e4c0a7;
 }
 
 .mobile-nav {
