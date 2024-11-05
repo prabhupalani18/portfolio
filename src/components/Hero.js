@@ -1,5 +1,10 @@
 import heroImg from "../assets/dev.png";
-import { AiOutlineLinkedin, AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
+import {
+    AiOutlineLinkedin,
+    AiOutlineFacebook,
+    AiOutlineInstagram,
+    AiOutlineTwitter,
+} from "react-icons/ai";
 
 export default function Hero() {
     return (
@@ -12,6 +17,18 @@ export default function Hero() {
                     </p>
                 </h1>
                 <div className="flex py-10">
+                    <a href="#" className="pr-2 hover:text-white">
+                        <AiOutlineLinkedin size={40} />
+                    </a>
+                    <a href="#" className="pr-2 hover:text-white">
+                        <AiOutlineFacebook size={40} />
+                    </a>
+                    <a href="#" className="pr-2 hover:text-white">
+                        <AiOutlineInstagram size={40} />
+                    </a>
+                    <a href="#" className="hover:text-white">
+                        <AiOutlineTwitter size={40} />
+                    </a>
                 <a href="#" className="pr-2 hover:text-white"><AiOutlineLinkedin size={40}/></a>
                 <a href="#" className="pr-2 hover:text-white"><AiOutlineFacebook size={40}/></a>
                 <a href="#" className="pr-2 hover:text-white"><AiOutlineInstagram size={40}/></a>
