@@ -5,7 +5,6 @@ import {
     AiOutlineInstagram,
     AiOutlineTwitter,
 } from "react-icons/ai";
-import { AiOutlineLinkedin, AiOutlineFacebook, AiOutlineInstagram, AiOutlineTwitter } from "react-icons/ai";
 
 export default function Hero() {
     return (

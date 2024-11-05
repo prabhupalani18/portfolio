@@ -5,7 +5,7 @@ export default function Header() {
     const [toggleMenu, setToggleMenu] = useState(false);
 
     return (
-        <header className="flex justify-between px-5 py-2 bgprimary">
+        <header className="flex justify-between px-5 py-3 bgprimary">
             <a className="font-bold text-black" href="#">
                 Prabhu P
             </a>
