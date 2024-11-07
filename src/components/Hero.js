@@ -29,10 +29,6 @@ export default function Hero() {
                     <a href="#" className="hover:text-white">
                         <AiOutlineTwitter size={40} />
                     </a>
-                <a href="#" className="pr-2 hover:text-white"><AiOutlineLinkedin size={40}/></a>
-                <a href="#" className="pr-2 hover:text-white"><AiOutlineFacebook size={40}/></a>
-                <a href="#" className="pr-2 hover:text-white"><AiOutlineInstagram size={40}/></a>
-                <a href="#" className="hover:text-white"><AiOutlineTwitter size={40}/></a>
                 </div>
             </div>
             <img src={heroImg} alt="software developer" className="md:w-1/3" />
