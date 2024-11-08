@@ -8,7 +8,11 @@ export default function Projects() {
                     </h1>
                 </div>
             </div>
-            <div className="w-1/2">IMAGES</div>
+            <div className="w-1/2">
+                <div className="flex">
+                    <img src='' alt="Task Manager"/>
+                </div>
+            </div>
         </section>
     );
 }
