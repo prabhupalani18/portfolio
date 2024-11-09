@@ -1,3 +1,5 @@
+import P1 from '../assets/p1.png';
+
 export default function Projects() {
     return (
         <section className="flex px-5 py-20 justify-center bgsecondary">
@@ -10,7 +12,7 @@ export default function Projects() {
             </div>
             <div className="w-1/2">
                 <div className="flex">
-                    <img src='' alt="Task Manager"/>
+                    <img src = {P1} alt="Task Manager"/>
                 </div>
             </div>
         </section>
