@@ -55,7 +55,7 @@
     "zod": "^3.25.76"
   },
   "scripts": {
-    "exec": "npm run build:dev && npm run preview",
+    "exec": "npm run build && npm run preview",
     "dev": "vite",
     "build": "vite build",
     "build:dev": "vite build --mode development",
