@@ -7,7 +7,7 @@ const Hero = () => {
   };
 
   const handleDownloadResume = () => {
-    const resumeUrl = import.meta.env.VITE_RESUME_URL;
+    const resumeUrl = import.meta.env.VITE_RESUME_URL || "https://drive.google.com/file/d/1xXJzuybbjxGaWybqdatZW5ILbi8srqfG/view?usp=sharing";
     window.open(resumeUrl, "_blank", "noopener,noreferrer");
   };
 
